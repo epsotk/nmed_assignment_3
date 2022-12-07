@@ -33,12 +33,12 @@ $("#clock").on("click", function () {
 });
 
 function lightOn() {
-  $("#light").attr("src", "img/svg/speciwoman-Light-switch-on.svg");
+  $("#light").attr("src", "/img/svg/speciwoman-Light-switch-on.svg");
   $("body").css("background", "linear-gradient(146deg, rgba(255,255,255,1) 19%, rgba(228,224,179,1) 100%)");
   $(".funbox").css("display", "flex");
 }
 function lightOff() {
-  $("#light").attr("src", "img/svg/speciwoman-Light-switch-off.svg");
+  $("#light").attr("src", "/img/svg/speciwoman-Light-switch-off.svg");
   $("body").css("background", "black");
   $(".funbox").css("display", "none");
 }
