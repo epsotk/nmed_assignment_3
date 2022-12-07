@@ -1,0 +1,61 @@
+html,
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+  color: #f6f0ed;
+  font-size: 20px;
+  line-height: 1.5em;
+  transition: all 0.5s ease;
+}
+
+main {
+  padding-top: 5%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5vh;
+  transition: all 1.5s;
+}
+
+.lightswitch {
+  cursor: pointer;
+  width: 30vh;
+}
+
+.item {
+  cursor: pointer;
+  width: 30vh;
+  transition: all 1s;
+}
+
+.item:hover {
+  transform: translateY(-10px);
+}
+
+.funbox {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  max-width: 600px;
+}
+
+.timebox {
+  font-family: 'Orbitron', sans-serif;
+  color:red;
+  opacity: 0;
+  letter-spacing: 10px;
+  filter: drop-shadow(0px 5px 5px #000);
+  transition: all 1.5s;
+}
+
+.filter{
+  filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
